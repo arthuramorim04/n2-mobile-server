@@ -1,4 +1,4 @@
-const io = require('socket.io')(80);
+const io = require('socket.io')(3000);
 io.set('origins', '*:*');
 //stats
 let numUsers = 0;
